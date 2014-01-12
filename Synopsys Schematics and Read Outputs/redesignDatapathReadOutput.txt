@@ -1,0 +1,145 @@
+Loading db file '/afs/bp.ncsu.edu/dist/cadence_cdk/OSU018_StdCells/Slow/osu018_stdcells_slow.db'
+Loading db file '/ncsu/synopsys/libraries/syn/dw_foundation.sldb'
+Loading db file '/ncsu/synopsys/libraries/syn/gtech.db'
+Loading db file '/ncsu/synopsys/libraries/syn/standard.sldb'
+  Loading link library 'osu018_stdcells_slow'
+  Loading link library 'gtech'
+Loading verilog file '/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v:229: the undeclared symbol 'CauseOut' assumed to have the default net type, which is 'wire'. (VER-936)
+
+Inferred memory devices in process
+	in routine datapath line 101 in file
+		'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       PC_reg        | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 161 in file
+		'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| overflowRegOut_reg  | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine Register_32bit line 401 in file
+		'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     Output_reg      | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine Register_32bitWE line 436 in file
+		'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     Output_reg      | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v:471: Potential simulation-synthesis mismatch if index exceeds size of array 'register'. (ELAB-349)
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v:472: Potential simulation-synthesis mismatch if index exceeds size of array 'register'. (ELAB-349)
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v:480: Potential simulation-synthesis mismatch if index exceeds size of array 'register'. (ELAB-349)
+
+Inferred memory devices in process
+	in routine RegFile line 477 in file
+		'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|    register_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+===========================================================
+| block name/line  | Inputs | Outputs | # sel inputs | MB |
+===========================================================
+|   RegFile/471    |   32   |   32    |      5       | N  |
+|   RegFile/472    |   32   |   32    |      5       | N  |
+===========================================================
+
+Statistics for case statements in always block at line 501 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           502            |    auto/auto     |
+===============================================
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v:600: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 598 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           600            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 641 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           642            |    auto/auto     |
+|           646            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 676 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           677            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 700 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           701            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/datapath.db:datapath'
+Loaded 17 designs.
+Current design is 'datapath'.
+datapath Cla_4bit shift_left2 Register_32bit Register_32bitWE RegFile mux4to1 mux2to1_5Bit mux2to1 mux2to1_32Bit ALU32Bit ALUcontrol mux4to1_32Bit mux4to1_8Bit SignExtend_8to32 SignExtend Adder_32bit

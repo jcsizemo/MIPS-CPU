@@ -1,0 +1,40 @@
+Loading verilog file '/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v:52: Parameter range specification is new feature of Verilog 2001. Synthesis and non-Verilog 2001 compatible simulation may have different results. (VER-311)
+Warning:  /afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v:71: Parameter range specification is new feature of Verilog 2001. Synthesis and non-Verilog 2001 compatible simulation may have different results. (VER-311)
+
+Statistics for case statements in always block at line 85 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            87            |    auto/auto     |
+|            91            |    auto/auto     |
+|           102            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 137 in file
+	'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           157            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine controller line 269 in file
+		'/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  Current_state_reg  | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/j/jcsizem2/ECE406Project2/controller.db:controller'
+Loaded 1 design.
+Current design is 'controller'.
+controller
